@@ -27,14 +27,30 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;  
+public class CalculateCube  
+{   
+static void cube()  
+{  
+Scanner sc= new Scanner(System.in); 
+int x= sc.nextInt();  
+int y=x*x*x;
+System.out.println("Cube is: "+y);    
+}  
+public static void main(String args[])  
+{  
+ 
+cube();    
+}  
+}  
 
-
-
-
-
+```
 
 
 ## OUTPUT:
+
+![Screenshot 2025-04-26 152231](https://github.com/user-attachments/assets/af57e7d2-70ca-44b3-a5d4-1a90841453cb)
 
 
 
