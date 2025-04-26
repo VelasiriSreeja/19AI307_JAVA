@@ -4,7 +4,7 @@
 To develop a java Program to print the value if it is greater than 10 using class and methods
 
 ## ALGORITHM :
-
+```
 1.	Start
 2.Create a class named CheckValue with a method called checkNumber(int num).
 3Inside checkNumber method, check if the number is greater than 10.
@@ -13,7 +13,7 @@ To develop a java Program to print the value if it is greater than 10 using clas
 6.In another class (e.g., Main), create the main() method.
 7.Inside main(), take input from the user using Scanner.
 8.End the program
-
+```
 
 ## PROGRAM:
  ```
