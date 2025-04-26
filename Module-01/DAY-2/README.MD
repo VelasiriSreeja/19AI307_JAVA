@@ -3,6 +3,7 @@
 ## AIM:
 To write a Java program to swap the values of the two variables by using a third variable. 
 ## ALGORITHM :
+```
 1.Start
 2.Declare three integer variables: a, b, and temp.
 3.Prompt the user to enter values for a and b.
@@ -11,7 +12,7 @@ To write a Java program to swap the values of the two variables by using a third
 6.Assign b to a (a = b).
 7.Assign temp to b (b = temp).
 8.Display the swapped values of a and b.
-
+```
 ## PROGRAM:
  ```
 /*
