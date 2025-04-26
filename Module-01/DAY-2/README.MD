@@ -1,45 +1,47 @@
 # Ex.No:1(B) VARIABLES AND OPERATOR
 
 ## AIM:
-To write a Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true. [Class name is ‘Demo’]
-
+To write a Java program to swap the values of the two variables by using a third variable. 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	Define a class named 'Demo'
-4.	Implement the main method
-5.	Create a new instance of the 'Scanner' class named 'sc' to read user input
-6.	Read an integer 'a' from the user using the 'nextInt' method of 'sc'
-7.	Read another integer 'b' from the user using the 'nextInt' method of 'sc'
-8.	Check if 'a' is less than 50 or if 'a' is less than 'b'
-a)	If the condition is true, print "true" using the 'print' method of 'System.out'
-b)	If the condition is false, print "false" using the 'print' method of 'System.out'
-9.	End
-
-
-
-
+1.Start
+2.Declare three integer variables: a, b, and temp.
+3.Prompt the user to enter values for a and b.
+4.Read the values of a and b using Scanner.
+5.Store a in temp (temp = a).
+6.Assign b to a (a = b).
+7.Assign temp to b (b = temp).
+8.Display the swapped values of a and b.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: v.sreeja
+RegisterNumber:  212222230169
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.*;
+public class Demo
+{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    System.out.println("After swapping a= "+a +" b="+b);
+    }
+}
+```
 ## OUTPUT:
 
 
 
+
 ## RESULT:
-Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
+Thus, the Java program the values are successfully swapped, and the output displays: "a = 20" and "b = 10".
