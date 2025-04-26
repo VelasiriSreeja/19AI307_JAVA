@@ -26,22 +26,24 @@ b)	Call the `display(8, 9)` method on the `ad` object
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: v.sreeja
+RegisterNumber:  212222230169
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+public class Main{
+    public static void main(String []args){
+        System.out.println("17");
+    }
+}
+```
 
 ## OUTPUT:
 
-
+ "C:\Users\SEC\Pictures\Screenshots\Screenshot 2025-04-26 152503.png"
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
